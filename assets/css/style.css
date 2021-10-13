@@ -1,9 +1,9 @@
 /* altezze e background-color da togliere */
 /* GLOBAL */
-section {
+/* section {
   margin-bottom: 10px;
   background-color: rgb(243, 192, 192);
-}
+} */
 
 .gs-container {
   width: 800px;
@@ -132,6 +132,10 @@ section {
   margin: 20px 0;
 }
 
+/* .gs-box-console-text {
+  text-align: center;
+} */
+
 /* New entries section */
 .gs-bg-new {
   padding: 30px;
@@ -170,20 +174,35 @@ section {
   color: #fff;
 }
 
-/* PlayStation Plus section */
-.gs-logo-plus, .gs-logo-now {
-  width: 70%;
-  background-color: rgb(156, 136, 136);
+.gs-cover-name {
+  color: #000;
 }
 
-/* .gs-plus-image, .gs-now-image {
-  width: 100%;
-} */
+/* PlayStation Plus section */
+.gs-bg-plus {
+  background-color: #BEBCBB;
+}
+
+.gs-logo-plus, .gs-logo-now {
+  width: 70%;
+}
 
 .gs-logo-now img, .gs-logo-plus img {
   width: 100%;
 }
 
+.gs-plus-text p {
+  padding: 20px 0;
+}
+
+.gs-btn-plus {
+  background-color: #D9DADC;
+  color: #2D64E7;
+}
+
+.gs-plus-image img, .gs-now-image img {
+  width: 100%;
+}
 
 /* Sales section */
 .gs-sales-top {
