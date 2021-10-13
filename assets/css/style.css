@@ -1,0 +1,78 @@
+/* altezze e background-color da togliere */
+/* GLOBAL */
+section {
+  margin-bottom: 30px;
+  background-color: rgb(243, 192, 192);
+}
+
+.gs-container {
+  width: 800px;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(193, 231, 176);
+}
+
+
+/* HEADER */
+.gs-header-top {
+  height: 30px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.gs-header-top img {
+  height: 20px;
+}
+
+.gs-header-bottom {
+  height: 80px;
+}
+
+/* MAIN */
+main {
+  margin-top: 110px;
+}
+
+
+
+
+.gs-bg-now {
+  background-color: #161C3B;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+footer {
+  height: 200px;
+  color: #fff;
+  background-color: #00439C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
