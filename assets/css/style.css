@@ -99,8 +99,27 @@ main {
   margin-bottom: 20px;
 }
 
+/* PlayStation Plus section */
+.gs-logo-plus, .gs-logo-now {
+  background-color: rgb(156, 136, 136);
+}
+
+.gs-plus-image, .gs-now-image {
+  background-color: rgb(161, 87, 87);
+  height: 500px;
+}
 
 
+/* Sales section */
+.gs-sales-top {
+  text-align: center;
+}
+
+.gs-sales-image {
+  height: 200px;
+  background-color: rgb(203, 247, 203);
+  margin-bottom: 20px;
+}
 
 
 
