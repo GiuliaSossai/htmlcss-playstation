@@ -1,7 +1,7 @@
 /* altezze e background-color da togliere */
 /* GLOBAL */
 section {
-  min-height: 300px;
+  min-height: 500px;
   margin-bottom: 30px;
   background-color: rgb(243, 192, 192);
 }
@@ -40,14 +40,15 @@ main {
 }
 
 
-/* jumbotron 1 */
-/* .gs-jumbotron {
-  padding-top: 50px;
-} */
+/* jumbotron 1 e 2 */
+.gs-jumbotron {
+  height: 500px;
+  padding-bottom: 30px;
+}
 
 
 /* play station 5*/
-.gs-box {
+.gs-box-round {
   margin: 10px;
   height: 100px;
   background-color: rgb(191, 243, 247);
@@ -58,10 +59,20 @@ main {
   color: #fff;
 }
 
-.gs-ps5-bottom {
-  text-align: center;
+/* section console */
+.gs-console-textarea, .gs-console-image {
+  background-color: rgb(232, 204, 248);
 }
 
+.gs-console-image {
+  min-height: 300px;
+}
+
+.gs-box-console {
+  height: 200px;
+  background-color: rgb(232, 204, 248);
+  border: 1px solid black;
+}
 
 
 
