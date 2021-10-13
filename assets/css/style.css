@@ -115,18 +115,21 @@ section {
 }
 
 /* section console */
-.gs-console-textarea, .gs-console-image {
-  background-color: rgb(232, 204, 248);
+.gs-console-textarea p {
+  margin: 30px 0;
 }
 
-.gs-console-image {
-  min-height: 300px;
+.gs-btn-ps5 {
+  color: #fff;
+  background-color: #2D64E7;
+}
+
+.gs-console-image, .gs-console-image img, .gs-box-console img {
+  width: 100%;
 }
 
 .gs-box-console {
-  height: 200px;
-  background-color: rgb(232, 204, 248);
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 /* new entries section */
@@ -145,7 +148,6 @@ section {
   width: 100%;
   display: block;
 }
-
 
 /* PlayStation 4 section */
 .gs-explore-top h2, .gs-explore-top p {
