@@ -1,7 +1,7 @@
 /* altezze e background-color da togliere */
 /* GLOBAL */
 section {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   background-color: rgb(243, 192, 192);
 }
 
@@ -88,15 +88,30 @@ section {
 
 
 /* play station 5*/
+.gs-ps5-top {
+  padding: 20px 0;
+}
+
 .gs-box-round {
   margin: 10px;
-  height: 100px;
+  border-radius: 20px;
+  overflow: hidden;
   background-color: rgb(191, 243, 247);
 }
 
-.gs-bg-now {
-  background-color: #161C3B;
-  color: #fff;
+.gs-box-round img {
+  width: 100%;
+}
+
+#gs-blue-p {
+  text-transform: uppercase;
+  color: blue;
+  padding: 0;
+}
+
+.gs-ps5-bottom h2, .gs-ps5-bottom p {
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 /* section console */
@@ -111,7 +126,7 @@ section {
 .gs-box-console {
   height: 200px;
   background-color: rgb(232, 204, 248);
-  border: 1px solid black;
+  margin-bottom: 20px;
 }
 
 /* new entries section */
@@ -133,6 +148,10 @@ section {
 
 
 /* PlayStation 4 section */
+.gs-explore-top h2, .gs-explore-top p {
+  padding: 20px 0;
+}
+
 .gs-explore-box {
   height: 380px;
   background-color: rgb(203, 247, 203);
@@ -159,23 +178,32 @@ section {
   text-align: center;
 }
 
+.gs-sales-top h2, .gs-sales-top p {
+  padding: 20px 0;
+}
+
 .gs-sales-image {
-  height: 200px;
-  background-color: rgb(203, 247, 203);
   margin-bottom: 20px;
 }
 
+.gs-sales-image img {
+  width: 100%;
+}
+
 /* Now section */
+.gs-bg-now {
+  background-color: #161C3B;
+  color: #fff;
+}
+
 .gs-now-text p {
   padding: 10px 0;
 }
 
-
-
-
 /* Social section */
 .gs-social-top p {
   font-size: 30px;
+  padding-bottom: 20px;
 }
 
 .gs-social-item {
@@ -185,7 +213,6 @@ section {
 .gs-social-item img {
   width: 100%;
 }
-
 
 /* FOOTER */
 footer {
