@@ -1,7 +1,6 @@
 /* altezze e background-color da togliere */
 /* GLOBAL */
 section {
-  min-height: 500px;
   margin-bottom: 30px;
   background-color: rgb(243, 192, 192);
 }
@@ -11,9 +10,14 @@ section {
   max-width: 80%;
   margin: 0 auto;
   text-align: center;
-  background-color: rgb(193, 231, 176);
 }
 
+.gs-btn-custom {
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
 
 /* HEADER */
 .gs-header-top {
@@ -26,15 +30,17 @@ section {
   height: 20px;
 }
 
-.gs-header-bottom {
+/* .gs-header-bottom {
   height: 80px;
+} */
+
+/* navbar*/
+.navbar-brand {
+  vertical-align: middle;
 }
+
 
 /* MAIN */
-main {
-  margin-top: 110px;
-}
-
 .gs-jumbotron, .gs-new-top, .gs-new-bottom {
   color: #fff;
 }
@@ -42,8 +48,42 @@ main {
 
 /* jumbotron 1 e 2 */
 .gs-jumbotron {
-  height: 500px;
   padding-bottom: 30px;
+}
+
+.gs-bg-jumbo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gs-bg-jumbo.first { 
+  margin-top: 110px;
+  padding-top: 200px;
+  background-image: url(../img/jumbo-bg.png);
+}
+
+.gs-bg-jumbo.second {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.gs-vg-name {
+  padding-top: 50px;
+  width: 50%;
+}
+
+.gs-vg-name img {
+  width: 100%;
+}
+
+.gs-jumbotron h2 {
+  font-size: 40px;
+  padding: 15px 0;
+}
+
+.gs-btn-jumbo {
+  color: #fff;
+  background-color: #CD3D0F;
 }
 
 
@@ -101,12 +141,16 @@ main {
 
 /* PlayStation Plus section */
 .gs-logo-plus, .gs-logo-now {
+  width: 70%;
   background-color: rgb(156, 136, 136);
 }
 
-.gs-plus-image, .gs-now-image {
-  background-color: rgb(161, 87, 87);
-  height: 500px;
+/* .gs-plus-image, .gs-now-image {
+  width: 100%;
+} */
+
+.gs-logo-now img, .gs-logo-plus img {
+  width: 100%;
 }
 
 
@@ -121,16 +165,29 @@ main {
   margin-bottom: 20px;
 }
 
-
-/* Social section */
-.gs-social-item {
-  background-color: rgb(50, 66, 50);
-  margin-bottom: 20px;
-  height: 100px;
+/* Now section */
+.gs-now-text p {
+  padding: 10px 0;
 }
 
 
 
+
+/* Social section */
+.gs-social-top p {
+  font-size: 30px;
+}
+
+.gs-social-item {
+  margin-bottom: 20px;
+}
+
+.gs-social-item img {
+  width: 100%;
+}
+
+
+/* FOOTER */
 footer {
   color: #fff;
   background-color: #00439C;
