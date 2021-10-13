@@ -122,15 +122,36 @@ main {
 }
 
 
+/* Social section */
+.gs-social-item {
+  background-color: rgb(50, 66, 50);
+  margin-bottom: 20px;
+  height: 100px;
+}
 
 
 
 footer {
-  height: 200px;
   color: #fff;
   background-color: #00439C;
 }
 
+.gs-footer-top {
+  padding-top: 20px;
+}
+
+.gs-footer-list ul {
+  list-style: none;
+}
+
+.gs-footer-list ul li {
+  padding: 0 10px;
+}
+
+.gs-footer-list ul li a {
+  text-decoration: none;
+  color: #fff;
+}
 
 
 
