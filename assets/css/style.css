@@ -1,6 +1,7 @@
 /* altezze e background-color da togliere */
 /* GLOBAL */
 section {
+  min-height: 300px;
   margin-bottom: 30px;
   background-color: rgb(243, 192, 192);
 }
@@ -34,12 +35,31 @@ main {
   margin-top: 110px;
 }
 
+.gs-jumbotron, .gs-new-top, .gs-new-bottom {
+  color: #fff;
+}
 
 
+/* jumbotron 1 */
+/* .gs-jumbotron {
+  padding-top: 50px;
+} */
+
+
+/* play station 5*/
+.gs-box {
+  margin: 10px;
+  height: 100px;
+  background-color: rgb(191, 243, 247);
+}
 
 .gs-bg-now {
   background-color: #161C3B;
   color: #fff;
+}
+
+.gs-ps5-bottom {
+  text-align: center;
 }
 
 
