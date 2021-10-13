@@ -46,7 +46,7 @@ section {
 }
 
 
-/* jumbotron 1 e 2 */
+/* jumbotron 1&2 */
 .gs-jumbotron {
   padding-bottom: 30px;
 }
@@ -87,7 +87,7 @@ section {
 }
 
 
-/* play station 5*/
+/* Play station 5*/
 .gs-ps5-top {
   padding: 20px 0;
 }
@@ -114,7 +114,7 @@ section {
   padding-bottom: 20px;
 }
 
-/* section console */
+/* Console section */
 .gs-console-textarea p {
   margin: 30px 0;
 }
@@ -132,16 +132,23 @@ section {
   margin: 20px 0;
 }
 
-/* new entries section */
+/* New entries section */
+.gs-bg-new {
+  padding: 30px;
+  background-color: #202020;
+}
+
 .gs-box-game {
-  height: 250px;
-  background-color: rgb(203, 247, 203);
+  margin-bottom: 20px;
+}
+
+.gs-box-game a, .gs-box-game a p{
+  text-decoration: none;
+  color: #fff;
 }
 
 .gs-cover {
   width: 100%;
-  height: 150px;
-  background-color: rgb(144, 177, 144);
 }
 
 .gs-cover img {
@@ -155,9 +162,12 @@ section {
 }
 
 .gs-explore-box {
-  height: 380px;
-  background-color: rgb(203, 247, 203);
   margin-bottom: 20px;
+}
+
+.gs-explore-box a, .gs-explore-box:hover a{
+  text-decoration: none;
+  color: #fff;
 }
 
 /* PlayStation Plus section */
