@@ -104,7 +104,6 @@ section {
 }
 
 .gs-content-round {
-  /* margin: 10px; */
   border-radius: 18px;
   overflow: hidden;
 }
@@ -132,10 +131,6 @@ section {
 .gs-btn-ps5 {
   color: #fff;
   background-color: #2D64E7;
-}
-
-.gs-box-ps {
-  border-bottom: 3px solid #2D64E7;
 }
 
 .gs-console-image, .gs-console-image img, .gs-box-console img {
