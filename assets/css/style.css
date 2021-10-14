@@ -1,9 +1,8 @@
 /* altezze e background-color da togliere */
 /* GLOBAL */
-/* section {
-  margin-bottom: 10px;
-  background-color: rgb(243, 192, 192);
-} */
+section {
+  padding: 50px 0;
+}
 
 .gs-container {
   width: 800px;
@@ -124,6 +123,10 @@
   background-color: #2D64E7;
 }
 
+.gs-box-ps {
+  border-bottom: 3px solid #2D64E7;
+}
+
 .gs-console-image, .gs-console-image img, .gs-box-console img {
   width: 100%;
 }
@@ -132,9 +135,15 @@
   margin: 20px 0;
 }
 
-/* .gs-box-console-text {
+.gs-box-console-text {
   text-align: center;
-} */
+  font-size: 15px;
+}
+
+.gs-console-bottom {
+  margin-bottom: 20px;
+}
+
 
 /* New entries section */
 .gs-bg-new {
@@ -160,6 +169,10 @@
   display: block;
 }
 
+.gs-cover-name {
+  padding-top: 10px;
+}
+
 /* PlayStation 4 section */
 .gs-explore-top h2, .gs-explore-top p {
   padding: 20px 0;
@@ -181,6 +194,7 @@
 /* PlayStation Plus section - Now section */
 .gs-bg-plus {
   background-color: #BEBCBB;
+  padding: 0;
 }
 
 .gs-plus-text, .gs-now-text {
@@ -229,6 +243,7 @@
 .gs-bg-now {
   background-color: #161C3B;
   color: #fff;
+  padding: 0;
 }
 
 .gs-now-text p {
@@ -253,19 +268,19 @@
 footer {
   color: #fff;
   background-color: #00439C;
+  padding: 50px 0;
 }
 
 .ps-little-logo {
   width: 25%;
 }
 
-.gs-footer-top {
+/* .gs-footer-top {
   padding-top: 40px;
-}
+} */
 
 .ps-little-logo img {
   width: 100%;
-  /* filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(114deg) brightness(109%) contrast(97%); */
 }
 
 .ps-little-text {
