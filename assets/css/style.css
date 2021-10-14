@@ -255,6 +255,17 @@ footer {
   padding-top: 20px;
 }
 
+.ps-little-logo {
+  width: 30%;
+}
+
+.ps-little-logo img {
+  width: 100%;
+  
+  filter:grayscale(100%);
+  
+}
+
 .gs-footer-list ul {
   list-style: none;
 }
