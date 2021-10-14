@@ -124,6 +124,7 @@ section {
   background-color: #fff;
   border-radius: 20px;
   margin-bottom: 20px;
+  opacity: 60%;
 }
 
 .gs-box-round-active {
@@ -131,6 +132,7 @@ section {
 }
 
 .gs-box-round:hover {
+  opacity: 100%;
   margin-top: -10px;
   transition: all 1s;
 }
@@ -335,6 +337,11 @@ section {
 .gs-social-item {
   margin-bottom: 20px;
   box-shadow: 0 15px 8px 5px #f0e1e1;
+}
+
+.gs-social-item:hover {
+  scale: 1.1;
+  transition: all 1s;
 }
 
 .gs-social-item img {
