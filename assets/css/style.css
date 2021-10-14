@@ -18,6 +18,11 @@ section {
   outline: #000 solid 2px;
 }
 
+h2 {
+  font-size: 40px;
+  padding: 15px 0;
+}
+
 /* HEADER */
 .gs-header-top {
   height: 30px;
@@ -93,11 +98,6 @@ section {
   width: 100%;
 }
 
-.gs-jumbotron h2 {
-  font-size: 40px;
-  padding: 15px 0;
-}
-
 .gs-btn-jumbo {
   color: #fff;
   background-color: #CD3D0F;
@@ -148,13 +148,22 @@ section {
 
 #gs-blue-p {
   text-transform: uppercase;
-  color: blue;
+  color: #0072CE;
   padding: 0;
+  margin: 0;
 }
 
-.gs-ps5-bottom h2, .gs-ps5-bottom p {
+.gs-ps5-bottom h1 {
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 24px;
 }
 
 /* Console section */
@@ -173,6 +182,10 @@ section {
   outline: #2D64E7 solid 2px;
   border: 1px solid #fff;
   transition: all 1s;
+}
+
+.gs-container-xs {
+  max-width: 98%;
 }
 
 .gs-console-image, .gs-console-image img, .gs-box-console img {
@@ -206,6 +219,10 @@ section {
   background-color: #202020;
 }
 
+.gs-new-top h3, .gs-new-top h4 {
+  padding-bottom: 25px;
+}
+
 .gs-box-game {
   margin-bottom: 20px;
 }
@@ -231,6 +248,10 @@ section {
 /* PlayStation 4 section */
 .gs-explore-top h2, .gs-explore-top p {
   padding: 20px 0;
+}
+
+.gs-explore-bottom {
+  padding-top: 40px;
 }
 
 .gs-explore-box {
@@ -290,12 +311,12 @@ section {
   text-align: center;
 }
 
-.gs-sales-top h2, .gs-sales-top p {
+.gs-sales-top h2, .gs-sales-top p, .gs-sales-image {
   padding: 20px 0;
 }
 
-.gs-sales-image {
-  margin-bottom: 20px;
+.gs-sales-bottom {
+  padding: 50px 0;
 }
 
 .gs-sales-image img {
@@ -330,8 +351,7 @@ section {
 
 /* Social section */
 .gs-social-top p {
-  font-size: 30px;
-  padding-bottom: 20px;
+  font-size: 40px; 
 }
 
 .gs-social-item {
