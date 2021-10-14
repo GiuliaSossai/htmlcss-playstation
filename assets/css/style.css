@@ -14,11 +14,8 @@ section {
   padding: 5px 15px;
   border-radius: 20px;
   font-size: 15px;
-  border: 2px solid #000;
-}
-
-.gs-btn-custom:hover {
-  outline: #fff;
+  border: 1px solid #000;
+  outline: #000 solid 2px;
 }
 
 /* HEADER */
@@ -50,7 +47,9 @@ section {
 }
 
 .gs-btn-navbar:hover {
-  background-color: #000;
+  outline: #000 solid 2px;
+  border: 1px solid #fff;
+  transition: all 1s;
 }
 
 .gs-search img{
@@ -102,13 +101,14 @@ section {
 .gs-btn-jumbo {
   color: #fff;
   background-color: #CD3D0F;
-  border-color: #CD3D0F;
+  border: 1px solid #CD3D0F;
+  outline: #CD3D0F solid 2px;
 }
 
 .gs-btn-jumbo:hover {
-  color: #fff;
-  background-color: #CD3D0F;
-  border-color: #CD3D0F;
+  outline: #CD3D0F solid 2px;
+  border: 1px solid #fff;
+  transition: all 1s;
 }
 
 
@@ -157,6 +157,14 @@ section {
 .gs-btn-ps5 {
   color: #fff;
   background-color: #2D64E7;
+  border: 1px solid #2D64E7;
+  outline: #2D64E7 solid 2px;
+}
+
+.gs-btn-ps5:hover {
+  outline: #2D64E7 solid 2px;
+  border: 1px solid #fff;
+  transition: all 1s;
 }
 
 .gs-console-image, .gs-console-image img, .gs-box-console img {
@@ -166,10 +174,12 @@ section {
 .gs-box-console {
   margin: 20px 0;
   opacity: 50%;
+  cursor: pointer;
 }
 
 .gs-box-console:hover {
   opacity: 100%;
+  transition: all 1s;
 }
 
 .gs-box-console-text {
@@ -253,6 +263,14 @@ section {
 .gs-btn-plus {
   background-color: #D9DADC;
   color: #2D64E7;
+  border: 1px solid #D9DADC;
+  outline: #D9DADC solid 2px;
+}
+
+.gs-btn-plus:hover {
+  outline: #C6C5C5 solid 2px;
+  border: 1px solid #C6C5C5;
+  transition: all 1s;
 }
 
 .gs-plus-image img, .gs-now-image img {
@@ -285,6 +303,16 @@ section {
 
 .gs-now-text p {
   padding: 10px 0;
+}
+
+.gs-btn-now {
+  border: 1px solid #F0F0F0;
+  outline: #F0F0F0 solid 2px;
+}
+
+.gs-btn-now:hover {
+  border: 1px solid #161C3B;
+  transition: all 1s;
 }
 
 /* Social section */
