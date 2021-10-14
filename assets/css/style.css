@@ -178,9 +178,13 @@
   color: #000;
 }
 
-/* PlayStation Plus section */
+/* PlayStation Plus section - Now section */
 .gs-bg-plus {
   background-color: #BEBCBB;
+}
+
+.gs-plus-text, .gs-now-text {
+  margin: 30px 0;
 }
 
 .gs-logo-plus, .gs-logo-now {
@@ -251,33 +255,67 @@ footer {
   background-color: #00439C;
 }
 
-.gs-footer-top {
-  padding-top: 20px;
+.ps-little-logo {
+  width: 25%;
 }
 
-.ps-little-logo {
-  width: 30%;
+.gs-footer-top {
+  padding-top: 40px;
 }
 
 .ps-little-logo img {
   width: 100%;
-  
-  filter:grayscale(100%);
-  
+  /* filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(114deg) brightness(109%) contrast(97%); */
 }
 
+.ps-little-text {
+  margin-bottom: 30px;
+}
+
+.ps-little-text div{
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.lang {
+  width: 40px;
+  padding-right: 15px;
+}
+
+.ps-little-text img{
+  width: 100%;
+}
+
+/* footer list structure */
 .gs-footer-list ul {
   list-style: none;
+  margin-bottom: 40px;
 }
 
-.gs-footer-list ul li {
-  padding: 0 10px;
+.gs-footer-list ul .gs-main-list {
+  padding-right: 40px;
 }
 
 .gs-footer-list ul li a {
   text-decoration: none;
   color: #fff;
 }
+
+/* footer bottom */
+.gs-footer-bottom p {
+  font-size: 14px;
+}
+
+.gs-sony-logo {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.gs-sony-logo img {
+  width: 100%;
+}
+
+
 
 
 
