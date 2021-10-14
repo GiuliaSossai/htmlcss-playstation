@@ -92,13 +92,24 @@ section {
 }
 
 .gs-box-round {
-  margin: 10px;
+  border: 2px solid #fff;
+  padding: 2px;
+  background-color: #fff;
   border-radius: 20px;
-  overflow: hidden;
-  background-color: rgb(191, 243, 247);
+  margin-bottom: 20px;
 }
 
-.gs-box-round img {
+.gs-box-round-active {
+  border: 2px solid #2D64E7;
+}
+
+.gs-content-round {
+  /* margin: 10px; */
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.gs-content-round img {
   width: 100%;
 }
 
