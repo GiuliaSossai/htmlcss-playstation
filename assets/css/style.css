@@ -1,4 +1,3 @@
-/* altezze e background-color da togliere */
 /* GLOBAL */
 section {
   padding: 50px 0;
@@ -18,6 +17,10 @@ section {
   font-size: 15px;
 }
 
+/* .gs-btn-custom:hover {
+  
+} */
+
 /* HEADER */
 .gs-header-top {
   height: 30px;
@@ -29,13 +32,24 @@ section {
   height: 20px;
 }
 
-/* .gs-header-bottom {
-  height: 80px;
-} */
-
 /* navbar*/
-.navbar-brand {
-  vertical-align: middle;
+.gs-arrow {
+  display: inline-block;
+  width: 10px;
+}
+
+.gs-arrow img {
+  width: 100%;
+}
+
+.gs-btn-navbar {
+  background-color: #000;
+  color: #fff;
+  
+}
+
+.gs-search img{
+  width: 50%;
 }
 
 
@@ -88,7 +102,7 @@ section {
 
 /* Play station 5*/
 .gs-ps5-top {
-  padding: 20px 0;
+  margin-bottom: 50px;
 }
 
 .gs-box-round {
