@@ -13,13 +13,13 @@ section {
 .gs-btn-custom {
   padding: 5px 15px;
   border-radius: 20px;
-  border: none;
   font-size: 15px;
+  border: 2px solid #000;
 }
 
-/* .gs-btn-custom:hover {
-  
-} */
+.gs-btn-custom:hover {
+  outline: #fff;
+}
 
 /* HEADER */
 .gs-header-top {
@@ -43,9 +43,14 @@ section {
 }
 
 .gs-btn-navbar {
+  padding: 8px 18px;
   background-color: #000;
-  color: #fff;
-  
+  border-color: #000;
+  color: #fff; 
+}
+
+.gs-btn-navbar:hover {
+  background-color: #000;
 }
 
 .gs-search img{
@@ -97,6 +102,13 @@ section {
 .gs-btn-jumbo {
   color: #fff;
   background-color: #CD3D0F;
+  border-color: #CD3D0F;
+}
+
+.gs-btn-jumbo:hover {
+  color: #fff;
+  background-color: #CD3D0F;
+  border-color: #CD3D0F;
 }
 
 
@@ -153,6 +165,11 @@ section {
 
 .gs-box-console {
   margin: 20px 0;
+  opacity: 50%;
+}
+
+.gs-box-console:hover {
+  opacity: 100%;
 }
 
 .gs-box-console-text {
