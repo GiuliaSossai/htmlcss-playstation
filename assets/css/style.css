@@ -83,12 +83,6 @@ li.gs-item-active a:hover .gs-arrow-gray {
   list-style: none;
 }
 
-.gs-ul-dd-second a:hover {
-  background-color: #0070D0;
-  color: #fff;
-}
-
-
 /* MAIN */
 .gs-jumbotron, .gs-new-top, .gs-new-bottom {
   color: #fff;
