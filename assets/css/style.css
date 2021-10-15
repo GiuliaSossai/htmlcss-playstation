@@ -62,8 +62,21 @@ h2 {
 }
 
 /* dropdown */
-.nav { margin-bottom: 0; }
-.dropdown { position: static; }
+li.gs-item-active:hover a{
+  color: #0072CE !important;
+}
+.gs-arrow-blue {
+  display: none;
+  transform: rotate(180deg);
+}
+li.gs-item-active a:hover .gs-arrow-blue {
+  display: block;
+}
+
+li.gs-item-active a:hover .gs-arrow-gray {
+  display: none;
+}
+
 .dropdown-menu { width: 100%;}
 
 .gs-ul-dd, .gs-ul-dd-second {
