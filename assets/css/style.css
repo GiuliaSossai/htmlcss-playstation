@@ -40,7 +40,7 @@ h2 {
   width: 10px;
 }
 
-.gs-arrow img {
+.gs-arrow img, .gs-ps3-image img {
   width: 100%;
 }
 
@@ -59,6 +59,20 @@ h2 {
 
 .gs-search img{
   width: 50%;
+}
+
+/* dropdown */
+.nav { margin-bottom: 0; }
+.dropdown { position: static; }
+.dropdown-menu { width: 100%;}
+
+.gs-ul-dd, .gs-ul-dd-second {
+  list-style: none;
+}
+
+.gs-ul-dd-second a:hover {
+  background-color: #0070D0;
+  color: #fff;
 }
 
 
