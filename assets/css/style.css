@@ -273,15 +273,11 @@ p {
   padding: 0;
 }
 
-.gs-plus-text, .gs-now-text {
-  margin: 30px 0;
-}
-
 .gs-logo-plus, .gs-logo-now {
   width: 70%;
 }
 
-.gs-logo-now img, .gs-logo-plus img {
+.gs-logo-now img, .gs-logo-plus img, .gs-plus-image img, .gs-now-image img {
   width: 100%;
 }
 
@@ -302,8 +298,10 @@ p {
   transition: all 1s;
 }
 
-.gs-plus-image img, .gs-now-image img {
-  width: 100%;
+@media screen and (max-width: 768px) {
+  .gs-plus-text, .gs-now-text {
+    margin: 30px 0;
+  }
 }
 
 /* Sales section */
@@ -326,6 +324,12 @@ p {
 .gs-sales-image:hover {
   scale: 1.1;
   transition: all 2s;
+}
+
+@media screen and (max-width: 576px) {
+  .gs-sales-image:hover {
+    scale: 0.9;
+  }
 }
 
 /* Now section */
@@ -379,10 +383,6 @@ footer {
   width: 25%;
 }
 
-/* .gs-footer-top {
-  padding-top: 40px;
-} */
-
 .ps-little-logo img {
   width: 100%;
 }
@@ -397,7 +397,7 @@ footer {
 }
 
 .lang {
-  width: 40px;
+  width: 35px;
   padding-right: 15px;
 }
 
