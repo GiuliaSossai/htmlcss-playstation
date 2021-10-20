@@ -62,6 +62,10 @@ h2 {
 }
 
 /* dropdown */
+.gs-item-active {
+  position: static;
+}
+
 li.gs-item-active:hover a{
   color: #0072CE !important;
 }
